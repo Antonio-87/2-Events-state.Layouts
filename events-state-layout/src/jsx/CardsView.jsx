@@ -4,7 +4,7 @@ const CardsView = (props) => {
     const { cards } = props;
 
     return (
-        <ul>
+        <ul className="cardsView">
             {cards.map((card, i) => (
                 <ShopCard key={i} {...card} />
             ))}
